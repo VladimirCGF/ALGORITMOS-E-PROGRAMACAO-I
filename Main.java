@@ -13,17 +13,8 @@ public class Main {
         Random random = new Random();
 
         int[][] mes = new int[30][2];
-        int maxTemp = 0;
-        int minTemp = 999;
-        int varTemp = 0;
-        int varSoma = 0;
-        int meDia = 0;
-        int a = 0;
-        int b = 0;
-        int hoje = 0;
-        int qtdQuente = 0;
-        int ontem = 0;
-
+       int maxTemp = 0, minTemp = 999, varTemp = 0, varSoma = 0, a = 0, b = 0,
+                         hoje = 0, qtdQuente = 0, ontem = 0;
 
         for (int l = 0; l < 30; l++) {
             for (int c = 0; c < 2; c++) {
